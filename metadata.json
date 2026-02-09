@@ -1,0 +1,7 @@
+{
+  "name": "Placio - Your Digital Marketplace & Marketing Hub",
+  "description": "A comprehensive platform where users can build professional profiles, showcase products, and utilize AI for advanced marketing, with powerful administrative controls.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

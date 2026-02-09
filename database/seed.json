@@ -1,0 +1,61 @@
+
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "email": "admin@placio.com",
+      "password": "Admin@123",
+      "role": "ADMIN",
+      "name": "Placio Admin",
+      "storeName": "Placio Control",
+      "status": "active"
+    },
+    {
+      "id": "user-001",
+      "email": "omar@gadgetry.com",
+      "password": "pass123",
+      "role": "USER",
+      "name": "Omar Tech",
+      "storeName": "Gadgetry Hub",
+      "category": "Electronics",
+      "phone": "+966 50 123 4567",
+      "location": "Riyadh",
+      "bio": "Next-gen electronics."
+    },
+    {
+      "id": "user-002",
+      "email": "sara@velvet.com",
+      "password": "pass123",
+      "role": "USER",
+      "name": "Sara Styles",
+      "storeName": "Velvet Threads",
+      "category": "Fashion",
+      "phone": "+971 50 987 6543",
+      "location": "Dubai",
+      "bio": "Luxury sustainable fashion."
+    },
+    {
+      "id": "user-003",
+      "email": "nour@artisan.com",
+      "password": "pass123",
+      "role": "USER",
+      "name": "Nour Bites",
+      "storeName": "Artisan Bites",
+      "category": "Food",
+      "phone": "+965 1234 5678",
+      "location": "Kuwait City",
+      "bio": "Handcrafted gourmet snacks."
+    }
+  ],
+  "products": [
+    { "id": "p1", "userId": "user-001", "name": "UltraFlow Pro Laptop", "price": 1299, "status": "Approved", "image": "https://picsum.photos/600/400?random=11" },
+    { "id": "p2", "userId": "user-001", "name": "SonicBuds v2", "price": 199, "status": "Approved", "image": "https://picsum.photos/600/400?random=12" },
+    { "id": "p3", "userId": "user-001", "name": "Nano Tablet Air", "price": 499, "status": "Pending", "image": "https://picsum.photos/600/400?random=13" },
+    { "id": "p4", "userId": "user-002", "name": "Midnight Silk Scarf", "price": 85, "status": "Approved", "image": "https://picsum.photos/600/400?random=21" },
+    { "id": "p5", "userId": "user-002", "name": "Sustainable Trench Coat", "price": 210, "status": "Approved", "image": "https://picsum.photos/600/400?random=22" },
+    { "id": "p6", "userId": "user-002", "name": "Velvet Clutch Bag", "price": 145, "status": "Pending", "image": "https://picsum.photos/600/400?random=23" },
+    { "id": "p7", "userId": "user-003", "name": "Organic Mountain Honey", "price": 35, "status": "Approved", "image": "https://picsum.photos/600/400?random=31" },
+    { "id": "p8", "userId": "user-003", "name": "Gourmet Saffron Box", "price": 120, "status": "Approved", "image": "https://picsum.photos/600/400?random=32" },
+    { "id": "p9", "userId": "user-003", "name": "Dark Truffle Cookies", "price": 15, "status": "Pending", "image": "https://picsum.photos/600/400?random=33" }
+  ]
+}
