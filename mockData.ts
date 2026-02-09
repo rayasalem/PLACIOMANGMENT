@@ -20,6 +20,8 @@ export const MOCK_USERS: User[] = [
     id: 'emp-1', 
     name: 'أحمد خالد', 
     email: 'ahmed@placio.com', 
+    password: '123',
+
     role: UserRole.EMPLOYEE, 
     companyId: 'T-GADGET', 
     status: 'active', 
